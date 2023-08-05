@@ -1,0 +1,60 @@
+.fondoItem {
+  background-color: #30d2e728;
+  height: 130px;
+  border-radius: 20px;
+  color: white;
+}
+.sexo {
+  font-size: 40px;
+}
+.estiloNumero {
+  font-size: 32px;
+  font-weight: 800;
+  margin-top: -30px;
+}
+.centimetro {
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: -5px;
+}
+.form-range {
+  padding: 0px 20px;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  background-color: #ff3366;
+}
+.sumaResta {
+  cursor: pointer;
+  background-color: #ff4c4f;
+  padding: 7px;
+  border-radius: 15px;
+  margin-left: 6px;
+}
+.cursor {
+  cursor: pointer;
+}
+.sexoMasculino {
+  background-color: #2a77eb;
+}
+
+.sexoFemenino {
+  background-color: #ff3366;
+}
+
+@keyframes animatedClick {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Aplicar la animación cuando se haga clic */
+.animated-click {
+  animation: animatedClick 0.3s;
+}
